@@ -1,0 +1,19 @@
+{
+    "name": "pxt-SGBotic-EduFun-Rover",
+    "version": "0.1",
+    "description": "Makdecode block for micro:bit EduFun Rover",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "rover.ts",
+        "base.ts"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true
+}
