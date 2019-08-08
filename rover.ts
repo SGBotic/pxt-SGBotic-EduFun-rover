@@ -95,7 +95,13 @@ namespace SGBotic {
     //% pin.defl=DigitalPin.P8
     export function lineSensor(pin: DigitalPin): number {
         pins.setPull(pin, PinPullMode.PullUp);
-        return pins.digitalReadPin(pin);
+        if(pins.digitalReadPin(pin) === 1)
+        {
+            return 0;
+        }else{
+            return 1;
+        }
+        //return pins.digitalReadPin(pin);
         
     }
 
